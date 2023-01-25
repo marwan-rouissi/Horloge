@@ -11,12 +11,12 @@ alarm = (12,31,0)
 stop = (12,31,5)
 # heure à laquelle je souhaite reprendre le décompte de mon horloge
 reprise = (12,31,10)
-# fonction regler heure un nouvelle heure
+# fonction regler heure une nouvelle heure
 def set_time(n_clock):
     clock[0] = n_clock[0]
     clock[1] = n_clock[1]
     clock[2] = n_clock[2]
-# décommenter la ligne suivante pour afficher la nouvelle heyre souhaitée n_clock
+# décommenter la ligne suivante pour afficher la nouvelle heure souhaitée n_clock
 #set_time(n_clock)
 
 
